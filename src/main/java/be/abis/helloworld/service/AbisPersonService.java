@@ -8,6 +8,7 @@ public class AbisPersonService implements PersonService {
 
    @Override
     public Person findPersonById(int id) {
+       System.out.println("bla");
         return new Person("Sandy",42);
     }
 
